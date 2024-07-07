@@ -1,0 +1,19 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p>Auto-resizing sidenav</p>
+    @if (showFiller) {
+      <p>INGRESO DE DATOS</p>
+    }
+    <button (click)="showFiller = !showFiller" mat-raised-button>
+      Menu
+    </button>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      CONTENIDO
+    </button>
+  </div>
+
+</mat-drawer-container>
+
