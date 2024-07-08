@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* medida para tablets */
+
+@media (max-width:768px) {
+
+}
+
+/* medida para smartphones */
+
+@media (max-width:320px){
+
+}
